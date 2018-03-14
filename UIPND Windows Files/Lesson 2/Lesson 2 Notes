@@ -1,0 +1,31 @@
+Understanding CSS
+Search and Replace
+You can also think about CSS as a search and replace tool: you identify a class or a tag of the element you want to find (or match, in CSS terminology), and then what you want to do with it, or what property values to replace with different ones.
+
+Order Matters
+It also matters where you define the rules and in what order they are applied. Styles can be defined in different places and are applied in the following order, with definitions further down the list overwriting previous definitions:
+
+the default style of a browser (different browsers have slightly different styles)
+stylesheet in a separate file (this is what you will be mostly using)
+stylesheet inside HTML (this can be done for small projects but is not ideal)
+inline style in an element (this can also be done but should be avoided)
+Specifics Matter
+"Cascading" means that rules are applied not only to the elements they directly match, but also to all of those elements' child elements. However, if a child element has multiple, overlapping rules defined for it, the more specific rule takes effect.
+
+Follow us on Twitter!
+@cwpittman
+@JessicaUelmen
+
+Quiz: Styling Up
+How CSS Selectors Work
+
+MDN CSS Reference
+
+Browsers use default stylesheets to determine how to display HTML elements. You can view the default style rules for h1 and other elements for the following browsers:
+
+WebKit (Chrome and Safari)
+Firefox
+Internet Explorer
+Because these rules differ sometimes between browsers, there are efforts to promote consistency in styles across browsers. One popular solution to this issue is using what is referred to as a CSS reset such as normalize.css.
+
+You can find the documentation page on fonts here.

@@ -1,0 +1,27 @@
+title{font-family: Arial, sans-serif;font-weight: bolder;font-size: 25em;}
+body {
+  background-color: white;
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+p {
+	background-color: white;
+  color: maroon;
+  font-family: Arial, sans-serif;
+  font-size: 24px
+}
+h1{color:navy;font-family: Arial, sans-serif;font-weight: bolder;font-size: 30px;}
+h2{color:navy;font-family: Arial, sans-serif;font-size: 30px;}
+h3{color:navy;font-family: Arial, sans-serif;font-size: 30px;}
+h4{color:navy;font-family: Arial, sans-serif;font-size: 30px;}
+
+ul{color:navy;font-family: Arial, sans-serif;font-size: 28;}
+p em{font-size: 34px}
+
+}
